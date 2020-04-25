@@ -3225,16 +3225,18 @@
 				окно.document.head.innerHTML += "<style>a{color:#FFFFFF;font-weight:bold;text-decoration:none;} a:visited{color:#FFFFFF;text-decoration:none;} a:hover{color:#FFFFFF;text-decoration:underline;} a:active{color:#FFFFFF;text-decoration:none;} div{text-align:center;}</style>";
 				окно.document.body.innerHTML = `
 					<div style='text-align: center;'><b>Эмулятор русских кулькуляторов</b></div>
-					<p>&emsp;Программа в точности воспроизводит работу указанных в списке вычислительных устройств, а также предоставляет дополнительные возможности по управлению ими.</p>
-					<p>&emsp;Разработчики:<br />
+					<p style='text-align: justify;'>&emsp;Программа в точности воспроизводит работу указанных в списке вычислительных устройств, а также предоставляет дополнительные возможности по управлению ими.</p>
+					<p>&emsp;Разработчики:</p>
 					<p>&emsp;–&ensp;<i>Общая разработка программы</i>: А. Русский.</p>
 					<p>&emsp;–&ensp;<i>Восстановление кода ПЗУ микросхем</i>: <a href='http://code.google.com/p/emu145/' target='_blank'>Феликс Лазарев</a>.</p>
 					<p>&emsp;–&ensp;<i>Схема эмуляции работы микросхем</i>: Феликс Лазарев, <a href='https://code.google.com/p/mk52/' target='_blank'>Andrey_emu</a>.</p>
 					<p>&emsp;–&ensp;<i>Модификация программы</i>: С. Тарасов.</p>
 					<p>&emsp;–&ensp;<i>Идеи, тестирование и т. п.</i>: <a href='http://arbinada.com/pmk/user/2' target='_blank'>Сергей Тарасов</a>, <a href='http://arbinada.com/pmk/user/1316' target='_blank'>cax</a>, <a href='http://arvi.livejournal.com/'>AtH</a>, <a href='http://arbinada.com/pmk/user/4' target='_blank'>Vitasam</a>, <a href='http://mk.semico.ru/' target='_blank'>SMB</a>, <a href='http://pmk.arbinada.com/ru/user/1753' target='_blank'>Ustin_LVO</a> и др.</p>
 					<p>&emsp;–&ensp;<i>Особая благодарность</i> создателям воспроизводимых в программе устройств и авторам книг и инструкций по работе с ними.</p>
-					<div style='text-align: center; font-size: 80%; font-style: italic;'>Выпуск от <i>05.04.2019 г.</div><br />
-					<div style='text-align: center; font-style: italic;'>© Триединая русская нация великороссов, украинцев и белорусов.</div>`;
+					<div style='text-align: center; font-size: 80%; font-style: italic;'>Выпуск от <i>05.04.2019 г.</i></div>
+					<br />
+					<div style='text-align: center; font-style: italic;'>© Триединая русская нация великороссов, украинцев и белорусов.</div>
+				`;
 		}
 
 		window.addEventListener("load", () => Выбрать_калькулятор());
