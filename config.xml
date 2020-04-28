@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.mk61.emulator"
+    id          = "com.example.test"
     versionCode = "10"
     version     = "1.0.0" >
 
-  <name>Эмулятор русских калькуляторов</name>
+  <name>Тест приложения</name>
 
   <description>
-      Эмулятор русских калькуляторов.
+      Тест приложения.
   </description>
 
   <author email="rusprog@ro.ru">
       А. Русский
   </author>
 
+  <plugin name="Notification" value="org.apache.cordova.Notification"/>
+  <uses-permission android:name="android.permission.VIBRATE" />
+    
 </widget>
