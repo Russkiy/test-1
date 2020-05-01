@@ -14,5 +14,7 @@
   <author email="rusprog@ro.ru">
       А. Русский
   </author>
-    
+
+  <plugin spec="https://github.com/phonegap/phonegap-plugin-local-notification.git" source="git" />
+
 </widget>
